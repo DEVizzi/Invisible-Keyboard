@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="invisiblekeyboard.invisiblegridattack.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_grid_attack"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="?android:attr/colorActivatedHighlight"
+            android:text="@string/start_grid_attack"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/invisible_switch"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/invisible_switch"
+            android:textStyle="bold"
+            android:thumbTint="@android:color/holo_orange_dark" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_buffer"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:text="@string/reset_buffer"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/remove_grid"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/colorFocusedHighlight"
+        android:text="@string/remove_grid"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Invisible Keyboard</string>
+    <string name="start_grid_attack">Start Keyboard Attack</string>
+    <string name="invisible_switch">Make Keyboard Invisible?</string>
+    <string name="reset_buffer">Reset Logcat Buffer</string>
+    <string name="remove_grid">Remove Keyboard</string>
+</resources>
